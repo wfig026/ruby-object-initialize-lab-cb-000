@@ -21,4 +21,4 @@ max = Dog.new("Max")
 max.name
 max.breed
 
-puts "#{max.name} #{max.breed}"
+puts "#{max.name} is a #{max.breed}"
