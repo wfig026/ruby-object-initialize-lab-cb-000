@@ -13,7 +13,7 @@ class Dog
     @breed = breed
   end
   def breed
-    @breed = "Mutt"
+    @breed
   end
 end
 
@@ -24,4 +24,5 @@ max.breed
 puts "#{max.name} is a #{max.breed}"
 
 max.breed = "Akita"
+
 puts "#{max.name} is a #{max.breed}"
