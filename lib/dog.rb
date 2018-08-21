@@ -16,3 +16,7 @@ class Dog
     @breed = "Mutt"
   end
 end
+
+max = Dog.new
+
+puts "#{max.breed}"
