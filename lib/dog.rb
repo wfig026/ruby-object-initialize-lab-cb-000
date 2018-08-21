@@ -22,3 +22,6 @@ max.name
 max.breed
 
 puts "#{max.name} is a #{max.breed}"
+
+max.breed = "Akita"
+puts "#{max.name} is a #{max.breed}"
