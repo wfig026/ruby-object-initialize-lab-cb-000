@@ -25,4 +25,4 @@ puts "#{max.name} is a #{max.breed}"
 
 max.breed = "Akita"
 
-puts "#{max.name} is a #{max.breed}"
+puts "#{max.name} is an #{max.breed}"
