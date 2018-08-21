@@ -18,6 +18,7 @@ class Dog
 end
 
 max = Dog.new("Max")
+max.name
 max.breed
 
-puts "#{max.breed}"
+puts "#{max.name} #{max.breed}"
